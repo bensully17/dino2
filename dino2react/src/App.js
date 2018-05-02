@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './profile.css'
 import Header from './Header/Header'
 import Profiles from './Profiles/Profiles'
+import Footer from './Footer/Footer'
 const api_url = './dinosaurs.json'
 
 
@@ -30,6 +31,7 @@ class App extends Component {
               {profiles}
             </ul>
         </section>
+        <Footer/>
       </div>
     );
   }
